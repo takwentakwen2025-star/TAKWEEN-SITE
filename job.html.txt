@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الوظائف - منصة تكوين</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      direction: rtl;
+    }
+    header {
+      background: linear-gradient(to right, #003366, #FFD700);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .job-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .job-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .job-card h2 {
+      margin: 0;
+      font-size: 22px;
+      color: #003366;
+    }
+    .job-card p {
+      margin: 8px 0;
+      color: #555;
+    }
+    .apply-btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #FFD700;
+      color: #003366;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .apply-btn:hover {
+      background-color: #003366;
+      color: #FFD700;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <header>
+    <h1>الوظائف المتاحة</h1>
+    <p>ابحث عن فرصتك الآن عبر منصة تكوين</p>
+  </header>
+
+  <!-- قائمة الوظائف -->
+  <div class="job-list">
+    <!-- بطاقة وظيفة -->
+    <div class="job-card">
+      <h2>مصمم جرافيك</h2>
+      <p>الشركة: تكوين</p>
+      <p>الموقع: دمشق</p>
+      <p>نوع العقد: دوام كامل</p>
+      <a href="#" class="apply-btn">تقديم الآن</a>
+    </div>
+
+    <!-- بطاقة وظيفة -->
+    <div class="job-card">
+      <h2>مسؤول موارد بشرية</h2>
+      <p>الشركة: Omaya Gold</p>
+      <p>الموقع: دبي</p>
+      <p>نوع العقد: دوام كامل</p>
+      <a href="#" class="apply-btn">تقديم الآن</a>
+    </div>
+
+    <!-- بطاقة وظيفة -->
+    <div class="job-card">
+      <h2>مطور ويب</h2>
+      <p>الشركة: شركة تقنية</p>
+      <p>الموقع: الرياض</p>
+      <p>نوع العقد: عقد مؤقت</p>
+      <a href="#" class="apply-btn">تقديم الآن</a>
+    </div>
+  </div>
+
+  <!-- الفوتر -->
+  <footer>
+    <p>© 2025 منصة تكوين – جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
